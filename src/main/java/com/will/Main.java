@@ -11,9 +11,12 @@ public class Main {
         firstSet.delete(23);        //deletes number from set
         firstSet.addNew(12);
         firstSet.addNew(48);
-        firstSet.values();                     //gets length/size of set
+        firstSet.addNew(55);
+        firstSet.addNew(56);
+        firstSet.values();                     //gets values in set
 
-        System.out.println(firstSet.getMySet());            //lists all values in set
-        System.out.println(firstSet.values());         //shows length/size of set
+        System.out.println(firstSet.getSize());            //prints length of set
+        System.out.println(firstSet.values());             //prints all values in set
     }
+
 }

@@ -11,9 +11,8 @@ public class Set {
 
         for (int i = 0; i < mySet.size(); i++) {
             if (newNumber == mySet.get(i)){
-                inList = true;
+                return;
             }
-
         }
 
         if (!inList) {
@@ -29,11 +28,11 @@ public class Set {
         }
     }
 
-    public ArrayList<Integer> getMySet() {
+    public ArrayList<Integer> values() {
         return mySet;
     }
 
-    public Integer values() {
+    public int getSize() {
         return mySet.size();
     }
 }
